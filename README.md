@@ -14,19 +14,19 @@ The application is meant to convert the currency and it currently supports four 
 * Stable Internet Connection
 
 ## Steps to run the Application:
-### 1.Clone the application using the command:
+### 1. Clone the application using the command:
 ```
 git clone https://github.com/Aanchal315/Currency-Converter-Application.git
 ```
-### 2.Build the application using the command:
+### 2. Build the application using the command:
 ```
 mvn clean install
 ```
-### 3.Run the application using the command:
+### 3. Run the application using the command:
 ```
 mvn spring-boot:run
 ```
-### 4.Application can be accessed using the URL:
+### 4. Application can be accessed using the URL:
 ```
 localhost:8080/swagger-ui.html
 ```

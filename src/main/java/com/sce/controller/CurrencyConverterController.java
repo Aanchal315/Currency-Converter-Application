@@ -28,7 +28,7 @@ public class CurrencyConverterController {
 	public double convertCurrency(
 			@ApiParam(allowableValues = "INR, USD, EUR, GBP", defaultValue = "USD", required = true) @PathVariable String from,
 			@ApiParam(allowableValues = "INR, USD, EUR, GBP", defaultValue = "INR", required = true) @PathVariable String to,
-			@ApiParam(defaultValue = "1", required = true) @PathVariable double quantity) {
+			@PathVariable double quantity) {
 		return currencyConverterService.convertCurrency(from, to, quantity);
 	}
 

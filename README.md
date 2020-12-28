@@ -11,6 +11,7 @@ The application is meant to convert the currency and it currently supports four 
 ## Prerequisites to run the Application:
 * Java 8+
 * Maven 3.3+
+* Stable Internet Connection
 
 ## Steps to run the Application:
 ### 1.Clone the application using the command:

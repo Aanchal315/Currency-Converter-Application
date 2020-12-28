@@ -17,9 +17,9 @@ public class CurrencyConverterValidator {
 			throw new ResponseStatusException(HttpStatus.BAD_REQUEST,
 					"Cannot convert currency because both from and to are same.");
 		if (!supportedCurrencies.contains(from.toUpperCase()))
-			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, from + " is not supported");
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, from + " is not supported.");
 		if (!supportedCurrencies.contains(to.toUpperCase()))
-			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, to + " is not supported");
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, to + " is not supported.");
 
 	}
 

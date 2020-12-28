@@ -13,7 +13,7 @@ public class CurrencyConverterService {
 	@Autowired
 	ExchangeRatesService exchangeRatesService;
 
-	public double convertCurrency(String from, String to, float quantity) {
+	public double convertCurrency(String from, String to, double quantity) {
 		currencyConverterValidator.validateCurrency(from, to);
 		double exchangeRate = exchangeRatesService.getExchangeRate(from, to);
 		return (exchangeRate * quantity);
